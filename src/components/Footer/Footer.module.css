@@ -1,0 +1,168 @@
+.footerContainer {
+  width: 100%;
+  background: #353535;
+  padding: 20px;
+}
+
+.margin {
+  margin: 0px 30px;
+  padding-top: 30px;
+}
+
+.firstContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+.imgAndriod {
+  width: auto;
+  height: 60px;
+}
+
+.Line {
+  width: 100%;
+  border-bottom: 1px solid;
+  color: #464646;
+  padding-top: 20px;
+}
+
+.SafeImg {
+  display: flex;
+  gap: 18px;
+}
+
+.SafeImg > a {
+  display: inline-block;
+  outline: 0;
+  background-color: transparent;
+  color: #444;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.imgsafe {
+  background-color: transparent;
+  color: #464646;
+  transition: all 0.3;
+  -webkit-filter: saturate(0) brightness(90%) contrast(50%);
+  filter: saturate(0) brightness(90%) contrast(50%);
+  height: 1.5625rem;
+}
+
+.imgsafe:hover {
+  background-color: transparent;
+  color: transparent;
+}
+
+.mainOneContainer1 > div > p {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 10px 0px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.mainOneContainer2 > div > p {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 10px 0px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.mainOneContainer3 > div > p {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 10px 0px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.TwoContainer > div > p {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 10px 0px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+/* maincontainer here */
+
+.OneContainer {
+  display: flex;
+}
+
+.mainOneContainer1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainOneContainer2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+}
+
+.mainOneContainer3 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+}
+
+.secondContainer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+/* third container here */
+
+.thirdContainer {
+  margin: 15px 0px;
+}
+
+.thirdContainer > p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.toph1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.topp {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
+
+
+.fourContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.fourContainer > div > img {
+  width: 80px;
+  padding-top: 40px;
+}
+
+.fourContainer > div > ul{
+  display: flex;
+  color: rgba(255, 255, 255, 0.7);
+  gap: 30px;
+  cursor: pointer;
+}
+
+
+
+/* 
+color: rgba(255,255,255,.8); */

@@ -1,0 +1,106 @@
+.main_banner_wrapper {
+  position: relative;
+  background: #464646;
+  width: 100%;
+  height: 50vh;
+}
+
+.widthContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+}
+
+.box1 {
+  width: 600px;
+  height: 24.5rem;
+  background-color: #1a1919;
+}
+
+.box2 {
+  width: 600px;
+  height: 24.5rem;
+  background-color: #1a1919;
+}
+
+.boxheader {
+  background-color: #1a1919;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxheader h3 {
+  pointer-events: none;
+  color: #fff;
+  padding-left: 1.25rem;
+  font-size: 16px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Set your desired height */
+}
+
+.carousel_image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.prev_button,
+.next_button {
+  position: absolute;
+  top: -40px;
+  /* right: 10px; */
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.prev_button {
+  right: 80px;
+}
+
+.next_button {
+  right: 10px;
+}
+
+/* end part */
+.iintercom_lightweight_app_launcher {
+  position: fixed;
+  z-index: 2147483003;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none;
+  bottom: 27px;
+  right: 27px;
+  max-width: 48px;
+  width: 48px;
+  max-height: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #333132;
+  cursor: pointer;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
+  transition: transform 167ms cubic-bezier(0.33, 0, 0, 1);
+  box-sizing: content-box;
+}
+
+.intercom_lightweight_app_launcher_icon_open {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
+
+.intercom_lightweight_app_launcher_custom_icon_open {
+  max-height: 24px;
+  max-width: 24px;
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
